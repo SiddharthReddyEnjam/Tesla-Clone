@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Anek Latin", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.new {
+  text-align: center;
+  z-index: 5;
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+}
+
+.new-page {
+  display: inline-block;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  color: #666;
+  font-size: 1.4rem;
+  text-decoration: none;
+  border-bottom: 2px solid #666;
+  transition: all 0.33s ease;
+}
+
+.new-page:link:hover {
+  box-shadow: 0 1px 0 #777;
+}
+
+.header {
+  z-index: 10;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  position: absolute;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.logo-link {
+  color: #000;
+}
+
+.logo-icon {
+  width: 22rem;
+  padding: 0 5rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  color: #111;
+  font-weight: 500;
+}
+
+.nav-others {
+  padding: 0 3rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.product-info {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+}
+
+.product-title {
+  position: absolute;
+  top: 17%;
+  left: 42%;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.title-tag {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  color: #333;
+}
+
+.tag-link {
+  color: #333;
+  border-bottom: 2px solid #666;
+  transition: all 0.33s ease;
+}
+
+.tag-link:hover {
+  box-shadow: 0 1px 0 #777;
+}
+
+.product-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.product-links {
+  position: relative;
+  text-align: center;
+}
+
+.btn {
+  padding: 1.2rem 8rem;
+  background-color: #000;
+  position: absolute;
+  z-index: 10;
+  color: #fff;
+  border-radius: 100px;
+  transform: translateY(-400%);
+  font-size: 1.2rem;
+}
+
+.btn-left {
+  left: 31.3%;
+  background-color: #333;
+}
+
+.btn-right {
+  right: 31%;
+  padding: 1.2rem 7rem;
+  color: #000;
+  background-color: #eee;
+}
+
+.arrow-link {
+  font-size: 2.5rem;
+  color: #333;
+  z-index: 10;
+  position: absolute;
+  display: inline-block;
+  transform: translateY(-150%);
+  left: 49%;
+}
+
+.arrow-down {
+}
