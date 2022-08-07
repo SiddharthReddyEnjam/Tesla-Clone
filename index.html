@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/animation.css" />
 
     <script
       type="module"
@@ -81,7 +82,7 @@
             <a class="btn btn-left" href="#">CUSTOM ORDER</a>
             <a class="btn btn-right" href="#">EXISTING INVENTORY</a>
 
-            <a class="arrow-link" href="#"
+            <a class="arrow-link bounce" href="#product-2"
               ><ion-icon
                 class="arrow-down"
                 name="chevron-down-outline"
@@ -90,12 +91,13 @@
           </div>
         </div>
 
-        <div class="product-info">
+        <div class="product-info" id="product-2">
           <div class="product-title">
-            <h1>Model Y</h1>
-            <p>
+            <h1 class="title">Model Y</h1>
+            <p class="title-tag">
               Order Online for
               <a
+                class="tag-link"
                 href="https://www.tesla.com/support/taking-delivery?redirect=no"
                 >Touchless Delivery</a
               >
@@ -103,91 +105,105 @@
           </div>
           <img class="product-img" src="images/Desktop-ModelY.jpg" />
           <div class="product-links">
-            <a href="#">CUSTOM ORDER</a>
-            <a href="#">EXISTING INVENTORY</a>
+            <a class="btn btn-left" href="#">CUSTOM ORDER</a>
+            <a class="btn btn-right" href="#">EXISTING INVENTORY</a>
           </div>
         </div>
 
         <div class="product-info">
           <div class="product-title">
-            <h1>Model S</h1>
+            <h1 class="title">Model S</h1>
+            <p class="title-tag">
+              Order Online for
+              <a
+                class="tag-link"
+                href="https://www.tesla.com/support/taking-delivery?redirect=no"
+                >Touchless Delivery</a
+              >
+            </p>
           </div>
-          <p>
-            Order Online for
-            <a href="https://www.tesla.com/support/taking-delivery?redirect=no"
-              >Touchless Delivery</a
-            >
-          </p>
           <img
             class="product-img"
             src="images/Homepage-Model-S-Desktop-LHD.jpg"
           />
-          <a href="#">CUSTOM ORDER</a>
-          <a href="#">EXISTING INVENTORY</a>
+          <div class="product-links">
+            <a class="btn btn-left" href="#">CUSTOM ORDER</a>
+            <a class="btn btn-right" href="#">EXISTING INVENTORY</a>
+          </div>
         </div>
 
         <div class="product-info">
           <div class="product-title">
-            <h1>Model X</h1>
+            <h1 class="title">Model X</h1>
+            <p class="title-tag">
+              Order Online for
+              <a
+                class="tag-link"
+                href="https://www.tesla.com/support/taking-delivery?redirect=no"
+                >Touchless Delivery</a
+              >
+            </p>
           </div>
-          <p>
-            Order Online for
-            <a href="https://www.tesla.com/support/taking-delivery?redirect=no"
-              >Touchless Delivery</a
-            >
-          </p>
           <img
             class="product-img"
             src="images/Homepage-Model-X-Desktop-LHD.jpg"
           />
-          <a href="#">CUSTOM ORDER</a>
-          <a href="#">EXISTING INVENTORY</a>
+          <div class="product-links">
+            <a class="btn btn-left href="#">CUSTOM ORDER</a>
+            <a class="btn btn-right href="#">EXISTING INVENTORY</a>
+          </div>
         </div>
 
         <div class="product-info">
           <div class="product-title">
-            <h1>Solar Panels</h1>
+            <h1 class="title">Solar Panels</h1>
+            <p class="title-tag">Lowest Cost Solar Panels in America</p>
           </div>
-          <p>Lowest Cost Solar Panels in America</p>
           <img class="product-img" src="images/_25-HP-SolarPanels-D.jpg" />
-          <a href="#">CUSTOM ORDER</a>
-          <a href="#">EXISTING INVENTORY</a>
+          <div class="product-links">
+            <a class="btn btn-left" href="#">ORDER NOW</a>
+            <a class="btn btn-right" href="#">LEARN MORE</a>
+          </div>
         </div>
 
         <div class="product-info">
           <div class="product-title">
-            <h1>Solar Roof</h1>
+            <h1 class="title">Solar Roof</h1>
+            <p class="title-tag">Produce Clean Energy From Your Roof</p>
           </div>
-          <p>Produce Clean Energy From Your Roof</p>
           <img
             class="product-img"
             src="images/Homepage-SolarRoof-Desktop-Global.jpg"
           />
-          <a href="#">CUSTOM ORDER</a>
-          <a href="#">EXISTING INVENTORY</a>
+          <div class="product-links">
+            <a class="btn btn-left" href="#">ORDER NOW</a>
+            <a class="btn btn-right" href="#">LEARN MORE</a>
+          </div>
         </div>
 
         <div class="product-info">
           <div class="product-title">
-            <h1>Accessories</h1>
+            <h1 class="title">Accessories</h1>
           </div>
           <img class="product-img" src="images/Accessories D.jpg" />
-          <a href="#">SHOPNOW</a>
+          <div class="product-links">
+            <a class="btn shop-btn" href="#">SHOP NOW</a>
+          </div>
         </div>
       </section>
     </main>
 
     <footer>
       <div class="footer">
-        <ul>
-          <li><a href="#">Tesla &COPY; 2022</a></li>
-          <li><a href="#">Privacy & Legal</a></li>
-          <li><a href="#">Vehicle Recalls</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Engage</a></li>
-          <li><a href="#">Locations</a></li>
+        <ul class="footer-list">
+          <li><a class="footer-link" href="#">Tesla &COPY; 2022</a></li>
+          <li><a class="footer-link" href="#">Privacy & Legal</a></li>
+          <li><a class="footer-link" href="#">Vehicle Recalls</a></li>
+          <li><a class="footer-link" href="#">Contact</a></li>
+          <li><a class="footer-link" href="#">Careers</a></li>
+          <li><a class="footer-link" href="#">News</a></li>
+          <li><a class="footer-link" href="#">Engage</a></li>
+          <li><a class="footer-link" href="#">Locations</a></li>
         </ul>
       </div>
     </footer>
