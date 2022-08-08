@@ -50,7 +50,7 @@ body {
 .nav {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding-top: 2rem;
   position: absolute;
@@ -69,29 +69,37 @@ body {
 
 .nav-list {
   display: flex;
-  gap: 3rem;
+  /* gap: 3rem; */
+  margin-left: 28rem;
 }
 
 .nav-link {
   font-size: 1.5rem;
   color: #111;
   font-weight: 500;
+  padding: 0.6rem 1.3rem;
+  transition: all 0.5s;
 }
 
 .nav-link:hover {
-  background-color: #eee;
+  background-color: hsla(0, 0%, 0%, 0.05);
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .nav-others {
-  padding: 0 3rem;
   display: flex;
-  gap: 3rem;
+  margin-left: 21rem;
 }
 
 .product-info {
   position: relative;
   text-align: center;
   height: 100vh;
+  /* scroll-snap-stop: always; */
+}
+
+#product-2 {
 }
 
 .product-title {
