@@ -21,10 +21,12 @@ body {
 .new {
   text-align: center;
   z-index: 50;
-  position: absolute;
+  position: fixed;
   background-color: #fff;
   width: 100%;
   border-bottom: 0.1px solid #eee;
+  top: 0;
+  right: 0;
 }
 
 .new-page {
@@ -79,12 +81,14 @@ body {
   font-weight: 500;
   padding: 0.6rem 1.3rem;
   transition: all 0.5s;
+  transform: translateY(100%);
 }
 
 .nav-link:hover {
   background-color: hsla(0, 0%, 0%, 0.05);
   border-radius: 10px;
   cursor: pointer;
+  transform: translateX(0);
 }
 
 .nav-others {
